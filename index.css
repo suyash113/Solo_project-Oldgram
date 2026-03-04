@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Happy+Monkey&family=Karla:ital,wght@0,200..800;1,200..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #EDEDED;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+main {
+    width: 375px;
+    height: 1767px;
+    background-color: #EDEDED;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    width: 375px;
+    height: 67px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0;
+    border-bottom: 1px solid #C6C6C6;
+    background-color: white;
+
+}
+
+#logo {
+    width: 127px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+#user {
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    margin-right: 15px;
+}
+
+section {
+    background-color: white;
+}
+
+.post {
+    display: block;
+    width: 375px;
+    height: 545px;
+}
+
+.post-head {
+    width: 348px;
+    height: 34px;
+    margin: 10px;
+    display: flex;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+}
+
+.name-address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 348px;
+    height: 31px;
+    margin: 0 5px;
+    padding-top: 0;
+    
+}
+
+p {
+    font-size: 10px;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.bold-para {
+    font-weight: bold;
+}
+
+.main-post {
+    width: 375px;
+    height: 375px;
+}
+
+.post-foot {
+    width: 346px;
+    height: 78px;
+    margin: 21px 10px;
+
+}
+
+.like-share-comment {
+    width: 104px;
+    height: 22px;
+    margin-left:0 ;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2px;
+}
+
+.heart, .comment, .dm {
+    width: 22px;
+    height: 22px;
+}
+
+.likes, .user-comment {
+    text-align: left; 
+    margin-left:0 ;
+    margin-top: 15px;
+}
