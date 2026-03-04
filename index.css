@@ -94,6 +94,10 @@ p {
     height: 375px;
 }
 
+.main-post:hover {
+    cursor: pointer;
+}
+
 .post-foot {
     width: 346px;
     height: 78px;
@@ -113,10 +117,17 @@ p {
 .heart, .comment, .dm {
     width: 22px;
     height: 22px;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1);
 }
 
 .likes, .user-comment {
     text-align: left; 
     margin-left:0 ;
     margin-top: 15px;
+}
+
+.heart:hover, .comment:hover, .dm:hover {
+    background-color: re;
+    transform: scale(1.5); 
 }
